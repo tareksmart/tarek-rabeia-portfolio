@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,24 +16,32 @@
             font-family: 'Inter', sans-serif;
             background-color: #f8f9fa;
         }
+
         .container {
             max-width: 1200px;
         }
+
         .project-card {
             transition: transform 0.2s, box-shadow 0.2s;
         }
+
         .project-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
         }
+
         .btn-primary {
-            background-color: #3b82f6; /* Tailwind blue-500 */
+            background-color: #3b82f6;
+            /* Tailwind blue-500 */
         }
+
         .btn-primary:hover {
-            background-color: #2563eb; /* Tailwind blue-600 */
+            background-color: #2563eb;
+            /* Tailwind blue-600 */
         }
     </style>
 </head>
+
 <body class="text-gray-800">
 
     <!-- Header & Navigation -->
@@ -42,20 +51,28 @@
             <div class="space-x-4 flex items-center hidden md:flex">
                 <a href="#projects" class="text-gray-600 hover:text-blue-500 transition duration-300">Projects</a>
                 <a href="#contact" class="text-gray-600 hover:text-blue-500 transition duration-300">Contact</a>
-                <a href="https://github.com/tareksmart/" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-500 transition duration-300 ml-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="inline-block">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.465-2.381 1.236-3.221-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.874.118 3.176.771.84 1.236 1.911 1.236 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.607.801.576 4.765-1.589 8.199-6.091 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                <a href="https://github.com/tareksmart/" target="_blank" rel="noopener noreferrer"
+                    class="text-gray-600 hover:text-blue-500 transition duration-300 ml-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" class="inline-block">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.465-2.381 1.236-3.221-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.874.118 3.176.771.84 1.236 1.911 1.236 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.607.801.576 4.765-1.589 8.199-6.091 8.199-11.386 0-6.627-5.373-12-12-12z" />
                     </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/tarek-rabia-6aa906227/" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-500 transition duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="inline-block">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.766s.784-1.767 1.75-1.767 1.75.79 1.75 1.767-.783 1.766-1.75 1.766zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                <a href="https://www.linkedin.com/in/tarek-rabia-6aa906227/" target="_blank" rel="noopener noreferrer"
+                    class="text-gray-600 hover:text-blue-500 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" class="inline-block">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.766s.784-1.767 1.75-1.767 1.75.79 1.75 1.767-.783 1.766-1.75 1.766zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                     </svg>
                 </a>
             </div>
             <button class="md:hidden text-gray-600 focus:outline-none">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
                 </svg>
             </button>
         </nav>
@@ -65,8 +82,11 @@
     <section id="hero" class="bg-gray-100 py-24">
         <div class="container mx-auto px-4 text-center">
             <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">Hello, I'm Tarek Rabeia</h1>
-            <p class="mt-4 text-lg md:text-xl text-gray-600">A passionate mobile developer showcasing my recent work.</p>
-            <a href="#projects" class="mt-8 inline-block px-8 py-3 btn-primary text-white font-medium rounded-full shadow-lg hover:shadow-xl transition duration-300">View My Work</a>
+            <p class="mt-4 text-lg md:text-xl text-gray-600">A passionate mobile developer showcasing my recent work.
+            </p>
+            <a href="#projects"
+                class="mt-8 inline-block px-8 py-3 btn-primary text-white font-medium rounded-full shadow-lg hover:shadow-xl transition duration-300">View
+                My Work</a>
         </div>
     </section>
 
@@ -74,66 +94,77 @@
     <section id="projects" class="py-20">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">My Projects</h2>
-            
+
             <!-- Project 1: Restaurant Management System -->
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-12 project-card">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-900">Restaurant Management System</h3>
                     <p class="mt-2 text-gray-600">
-                        A robust system designed to streamline restaurant and cafe operations, including order management, inventory control, and sales reporting. This project demonstrates skills in user interface design, data handling, and building a complete application workflow.
+                        A robust system designed to streamline restaurant and cafe operations, including order
+                        management, inventory control, and sales reporting. This project demonstrates skills in user
+                        interface design, data handling, and building a complete application workflow.
                     </p>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
+                          <!-- Image: Login -->
+                    <div class="relative group">
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/log%20in.png?raw=true"
+                            alt="Login page for the application"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/2'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/log%20in.png?raw=true">Login</a></span>
+                        </div>
+                    </div>
                     <!-- Image: Homepage -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/hompage.png?raw=true" 
-                             alt="Homepage of the restaurant management system" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/1'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Homepage</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/hompage.png?raw=true"
+                            alt="Homepage of the restaurant management system"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/1'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/hompage.png?raw=true">Homepage</a></span>
+                            
+
                         </div>
                     </div>
                     <!-- Image: Add Item -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/add%20item.png?raw=true" 
-                             alt="Screen for adding new menu items" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/0'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Add Item</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/add%20item.png?raw=true"
+                            alt="Screen for adding new menu items"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/0'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/add%20item.png?raw=true">Add Item</a></span>
                         </div>
                     </div>
                     <!-- Image: Orders Status -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/orders%20status.png?raw=true" 
-                             alt="Order status tracking screen" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/3'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Orders Status</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/orders%20status.png?raw=true"
+                            alt="Order status tracking screen"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/3'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/orders%20status.png?raw=true">Orders Status</a></span>
                         </div>
                     </div>
-                     <!-- Image: Reports -->
-                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/reports.png?raw=true" 
-                             alt="Reporting and analytics dashboard" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/4'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Reports</span>
-                        </div>
-                    </div>
-                    <!-- Image: Login -->
+                    <!-- Image: Reports -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/log%20in.png?raw=true" 
-                             alt="Login page for the application" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/2'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Login</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/reports.png?raw=true"
+                            alt="Reporting and analytics dashboard"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/4'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/reports.png?raw=true">Reports</a></span>
                         </div>
                     </div>
+              
                 </div>
             </div>
 
@@ -142,142 +173,158 @@
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-900">Currency Converted App</h3>
                     <p class="mt-2 text-gray-600">
-                        The currency converter application is a one-page application developed by Flutter. It contains two payment plans. The first is free to get currency rates day by day. The second paid plan supports the application with currency rates at the moment.
+                        The currency converter application is a one-page application developed by Flutter. It contains
+                        two payment plans. The first is free to get currency rates day by day. The second paid plan
+                        supports the application with currency rates at the moment.
                     </p>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
-               
+
                     <!-- Image: Home Page -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/homepage.png?raw=true" 
-                             alt="Home page with sales chart and stats" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/e57f3ee3-ab32-4a18-a1c6-4bea03f3f015'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Home Page</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/homepage.png?raw=true"
+                            alt="Home page with sales chart and stats"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/e57f3ee3-ab32-4a18-a1c6-4bea03f3f015'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/homepage.png?raw=true">Home Page</a></span>
                         </div>
                     </div>
                     <!-- Image: convert between tow currency-->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/convert%20between%20tow%20currency.png?raw=true" 
-                             alt="Monthly sales chart" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/05d3d267-0f75-4f99-99fa-288d1fdfd640'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Convert between tow currencies</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/convert%20between%20tow%20currency.png?raw=true"
+                            alt="Monthly sales chart"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/05d3d267-0f75-4f99-99fa-288d1fdfd640'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/convert%20between%20tow%20currency.png?raw=true">Convert between tow currencies</a></span>
                         </div>
                     </div>
-                     <!-- Image: search by currency name -->
-                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/search%20by%20currency%20name.png?raw=true" 
-                             alt="Screen for querying bills" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/cefdcdb0-572f-4b9d-9321-1c054fa5c0f8'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Search by currency name</span>
+                    <!-- Image: search by currency name -->
+                    <div class="relative group">
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/search%20by%20currency%20name.png?raw=true"
+                            alt="Screen for querying bills"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/cefdcdb0-572f-4b9d-9321-1c054fa5c0f8'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/search%20by%20currency%20name.png?raw=true">Search by currency name</a></span>
                         </div>
                     </div>
                     <!-- Image: drawer -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/drawer.png?raw=true" 
-                             alt="Screen for querying items" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/acc70598-f2b6-486a-9496-ffab1a5df5f0'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Drawer Screen</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/drawer.png?raw=true"
+                            alt="Screen for querying items"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/acc70598-f2b6-486a-9496-ffab1a5df5f0'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/drawer.png?raw=true">Drawer Screen</a></span>
                         </div>
                     </div>
                     <!-- Image: search by country name in drawer -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/search%20by%20country%20name.png?raw=true" 
-                             alt="Login page of the sales tracker app" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/82ec98f1-d3f3-436d-90a9-b6e92b5e712b'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Search by country name in drawer</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/search%20by%20country%20name.png?raw=true"
+                            alt="Login page of the sales tracker app"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/82ec98f1-d3f3-436d-90a9-b6e92b5e712b'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/search%20by%20country%20name.png?raw=true">Search by country name in drawer</a></span>
                         </div>
                     </div>
-                       <!-- Image: search by voice in drawer -->
+                    <!-- Image: search by voice in drawer -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/search%20by%20voice.png?raw=true" 
-                             alt="Login page of the sales tracker app" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/82ec98f1-d3f3-436d-90a9-b6e92b5e712b'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Search by voice country name in drawer</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/search%20by%20voice.png?raw=true"
+                            alt="Login page of the sales tracker app"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/82ec98f1-d3f3-436d-90a9-b6e92b5e712b'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/search%20by%20voice.png?raw=true">Search by voice country name in drawer</a></span>
                         </div>
                     </div>
                 </div>
             </div>
-                        <!-- Project 2: Sales Tracker App -->
+            <!-- Project 2: Sales Tracker App -->
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-12 project-card">
                 <div class="p-8">
                     <h3 class="text-2xl font-bold text-gray-900">Sales Tracker App</h3>
                     <p class="mt-2 text-gray-600">
-                        A mobile application for tracking sales, managing items, and querying bills. The app features a user-friendly interface with a dashboard displaying a monthly sales chart and daily statistics.
+                        A mobile application for tracking sales, managing items, and querying bills. The app features a
+                        user-friendly interface with a dashboard displaying a monthly sales chart and daily statistics.
                     </p>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
                     <!-- Image: Splash Screen -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/splash%20screen.png?raw=true" 
-                             alt="Splash screen of the sales tracker app" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/ba634902-f99b-48ad-99a1-754acbd2deaa'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Splash Screen</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/splash%20screen.png?raw=true"
+                            alt="Splash screen of the sales tracker app"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/ba634902-f99b-48ad-99a1-754acbd2deaa'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/splash%20screen.png?raw=true">Splash Screen</a></span>
+                        </div>
+                    </div>
+                        <!-- Image: Login -->
+                    <div class="relative group">
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/login.png?raw=true"
+                            alt="Login page of the sales tracker app"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/82ec98f1-d3f3-436d-90a9-b6e92b5e712b'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/login.png?raw=true">Login</a></span>
                         </div>
                     </div>
                     <!-- Image: Home Page -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/home%20page.png?raw=true" 
-                             alt="Home page with sales chart and stats" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/e57f3ee3-ab32-4a18-a1c6-4bea03f3f015'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Home Page</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/home%20page.png?raw=true"
+                            alt="Home page with sales chart and stats"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/e57f3ee3-ab32-4a18-a1c6-4bea03f3f015'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/home%20page.png?raw=true">Home Page</a></span>
                         </div>
                     </div>
                     <!-- Image: Chart of Month Sels -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/chart%20of%20month%20sels.png?raw=true" 
-                             alt="Monthly sales chart" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/05d3d267-0f75-4f99-99fa-288d1fdfd640'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Monthly Chart</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/chart%20of%20month%20sels.png?raw=true"
+                            alt="Monthly sales chart"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/05d3d267-0f75-4f99-99fa-288d1fdfd640'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/chart%20of%20month%20sels.png?raw=true">Monthly Chart</a></span>
                         </div>
                     </div>
-                     <!-- Image: Bills Query -->
-                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/bills%20query.png?raw=true" 
-                             alt="Screen for querying bills" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/cefdcdb0-572f-4b9d-9321-1c054fa5c0f8'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Bills Query</span>
+                    <!-- Image: Bills Query -->
+                    <div class="relative group">
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/bills%20query.png?raw=true"
+                            alt="Screen for querying bills"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/cefdcdb0-572f-4b9d-9321-1c054fa5c0f8'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/bills%20query.png?raw=true">Bills Query</a></span>
                         </div>
                     </div>
                     <!-- Image: Items Query -->
                     <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/items%20query.png?raw=true" 
-                             alt="Screen for querying items" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/acc70598-f2b6-486a-9496-ffab1a5df5f0'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Items Query</span>
+                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/items%20query.png?raw=true"
+                            alt="Screen for querying items"
+                            class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
+                            onerror="this.src='http://googleusercontent.com/file_content/acc70598-f2b6-486a-9496-ffab1a5df5f0'; this.onerror=null;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
+                            <span class="text-white text-lg font-bold"><a href="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/items%20query.png?raw=true">Items Query</a></span>
                         </div>
                     </div>
-                    <!-- Image: Login -->
-                    <div class="relative group">
-                        <img src="https://github.com/tareksmart/tarek-rabeia-portfolio/blob/main/login.png?raw=true" 
-                             alt="Login page of the sales tracker app" 
-                             class="w-full h-auto rounded-lg shadow-md transition-transform transform group-hover:scale-105"
-                             onerror="this.src='http://googleusercontent.com/file_content/82ec98f1-d3f3-436d-90a9-b6e92b5e712b'; this.onerror=null;">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity rounded-lg">
-                            <span class="text-white text-lg font-bold">Login</span>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
         </div>
@@ -285,24 +332,34 @@
 
     <!-- Contact Section -->
     <section id="contact" class="bg-gray-100 py-20">
+        <!-- modify this form HTML and place wherever you want your form -->
+
         <div class="container mx-auto px-4">
             <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">Get in Touch</h2>
-            <p class="text-center text-gray-600 mb-12">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
-            
-            <form class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+            <p class="text-center text-gray-600 mb-12">I'm always open to new opportunities and collaborations. Feel
+                free to reach out!</p>
+
+            <form class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-lg"   action="https://formspree.io/f/xwpqyzbw"
+  method="POST">
                 <div class="mb-4">
                     <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
-                    <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="text" id="name" name="name"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
                 </div>
                 <div class="mb-4">
                     <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
-                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="email" id="email" name="email"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
                 </div>
                 <div class="mb-6">
                     <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
-                    <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    <textarea id="message" name="message" rows="5"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
                 </div>
-                <button type="submit" class="w-full px-4 py-3 btn-primary text-white font-medium rounded-lg shadow-md hover:shadow-xl transition duration-300">Send Message</button>
+                <button type="submit"
+                    class="w-full px-4 py-3 btn-primary text-white font-medium rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                Send Message
+                </button>
             </form>
         </div>
     </section>
@@ -312,24 +369,25 @@
         <div class="container mx-auto px-4 text-center">
             <p>&copy; 2025 Tarek Rabeia. All rights reserved.</p>
             <div class="mt-4 flex justify-center space-x-4">
-                <a href="https://github.com/tareksmart/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.465-2.381 1.236-3.221-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.874.118 3.176.771.84 1.236 1.911 1.236 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.607.801.576 4.765-1.589 8.199-6.091 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                <a href="https://github.com/tareksmart/" target="_blank" rel="noopener noreferrer"
+                    class="text-gray-300 hover:text-white transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.465-2.381 1.236-3.221-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.874.118 3.176.771.84 1.236 1.911 1.236 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.607.801.576 4.765-1.589 8.199-6.091 8.199-11.386 0-6.627-5.373-12-12-12z" />
                     </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/tarek-rabia-6aa906227/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.766s.784-1.767 1.75-1.767 1.75.79 1.75 1.767-.783 1.766-1.75 1.766zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                <a href="https://www.linkedin.com/in/tarek-rabia-6aa906227/" target="_blank" rel="noopener noreferrer"
+                    class="text-gray-300 hover:text-white transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.766s.784-1.767 1.75-1.767 1.75.79 1.75 1.767-.783 1.766-1.75 1.766zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                     </svg>
                 </a>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
-
-
-
-
-
-
